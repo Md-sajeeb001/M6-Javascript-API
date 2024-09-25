@@ -99,12 +99,14 @@
 //     }
 // }
 
-// const obj = myObjectFuntion(personInfo);
-// console.log(obj);
-
-// const showIdentity = `
-//    hi my first name is ${personInfo.fname}, and last name is ${personInfo.lname}, full name is ${personInfo.fname} ${personInfo.lname}
-//    and my age is ${personInfo.age}. i am form ${personInfo.address.from} and tha is ${personInfo.address.thana} thana
-//    our address postCode is ${personInfo.address.postCode};
-// `
-// // console.log(showIdentity);
+// const obj = (personInfo) => {
+    
+//     const showIdentity = `
+//        hi my first name is ${personInfo.fname}, and last name is ${personInfo.lname}, full name is ${personInfo.fname} ${personInfo.lname}
+//        and my age is ${personInfo.age}. i am form ${personInfo.address.from} and tha is ${personInfo.address.thana} thana
+//        our address postCode is ${personInfo.address.postCode};
+//     `
+//     return showIdentity;
+// };
+// const result = obj(personInfo);
+// console.log(result);
