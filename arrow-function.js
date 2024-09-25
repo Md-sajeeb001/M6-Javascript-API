@@ -39,18 +39,18 @@
 // console.log(result);
 
 // Single perameter 
-const person = (person) => person.from.thana = "joshor thana";
+// const person = (person) => person.from.thana = "joshor thana";
 
-const personAge = {
-    name: "kabil",
-    age: 55,
-    from: {
-        location: 'Cumilla',
-        thana: 'cumilla thana'
-    }
-}
+// const personAge = {
+//     name: "kabil",
+//     age: 55,
+//     from: {
+//         location: 'Cumilla',
+//         thana: 'cumilla thana'
+//     }
+// }
 
-const getAge = person(personAge);
+// const getAge = person(personAge);
 // console.log(getAge);
 
 
@@ -79,32 +79,32 @@ const getAge = person(personAge);
 // const passValue = CalculationArrowFuntion(5, 10, 15, 20);
 // console.log(passValue);
 
-const arrayFuntion = (array) => array[2];
-const passArray = arrayFuntion([23, 55, 44, 88, 19]);
+// const arrayFuntion = (array) => array[2];
+// const passArray = arrayFuntion([23, 55, 44, 88, 19]);
 // console.log(passArray);
 
 // Using arrow function in object and also change the object value !
 
 // const myObjectFuntion = obj => obj.fname = "kolim";
-const myObjectFuntion = obj => obj;
+// const myObjectFuntion = obj => obj;
 
-const personInfo = {
-    fname: 'jaker',
-    lname: 'ullha',
-    age: 28,
-    address:{
-        from: "nowakhali",
-        thana: "bikromput",
-        postCode: 323234
-    }
-}
+// const personInfo = {
+//     fname: 'jaker',
+//     lname: 'ullha',
+//     age: 28,
+//     address:{
+//         from: "nowakhali",
+//         thana: "bikromput",
+//         postCode: 323234
+//     }
+// }
 
-const obj = myObjectFuntion(personInfo);
-console.log(obj);
+// const obj = myObjectFuntion(personInfo);
+// console.log(obj);
 
-const showIdentity = `
-   hi my first name is ${personInfo.fname}, and last name is ${personInfo.lname}, full name is ${personInfo.fname} ${personInfo.lname}
-   and my age is ${personInfo.age}. i am form ${personInfo.address.from} and tha is ${personInfo.address.thana} thana
-   our address postCode is ${personInfo.address.postCode};
-`
-// console.log(showIdentity);
+// const showIdentity = `
+//    hi my first name is ${personInfo.fname}, and last name is ${personInfo.lname}, full name is ${personInfo.fname} ${personInfo.lname}
+//    and my age is ${personInfo.age}. i am form ${personInfo.address.from} and tha is ${personInfo.address.thana} thana
+//    our address postCode is ${personInfo.address.postCode};
+// `
+// // console.log(showIdentity);
