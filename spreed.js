@@ -22,10 +22,10 @@
 // changeValue = [88, 77, 66, 55];
 // console.log(...changeValue);
 
-const arrayOfNumber = [55, 88, 102, 45, 76];
-const maxNum = Math.max(...arrayOfNumber);
+// const arrayOfNumber = [55, 88, 102, 45, 76];
+// const maxNum = Math.max(...arrayOfNumber);
 
-// Advanced 
-const addNum = [...arrayOfNumber, 500, 600];
-console.log(maxNum);
-console.log(...addNum);
+// // Advanced 
+// const addNum = [...arrayOfNumber, 500, 600];
+// console.log(maxNum);
+// console.log(...addNum);
