@@ -9,6 +9,8 @@
 // const maxNam2 = Math.max(...numbers2);
 // console.log(maxNam2);
 
+
+// using spreed operator and 
 const numbers = [32, 44, 12, 55, 45, 89];
 
 // const number = Math.min(...numbers);
