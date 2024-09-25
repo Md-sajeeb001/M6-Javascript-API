@@ -20,25 +20,25 @@
 // console.log(showNumberValue);
 
 
-const fruits = {
-    bananaPrice: 45,
-    orangePrice: 50,
-    fruitsName:{
-        fName: 'strobary',
-        sName: 'dragon',
-        tName: 'mango'
-    }
-}
+// const fruits = {
+//     bananaPrice: 45,
+//     orangePrice: 50,
+//     fruitsName:{
+//         fName: 'strobary',
+//         sName: 'dragon',
+//         tName: 'mango'
+//     }
+// }
 
-const fruitsDetails = `
-    Total fruit cost list:  
-    1. Banana Price is ${45} 
-    2. Orange Price is ${50}
-    2. Total Fruit Price is ${fruits.bananaPrice + fruits.orangePrice}
+// const fruitsDetails = `
+//     Total fruit cost list:  
+//     1. Banana Price is ${45} 
+//     2. Orange Price is ${50}
+//     2. Total Fruit Price is ${fruits.bananaPrice + fruits.orangePrice}
     
-    Which fruit i buy list:
-    1. very sweet fruit ${fruits.fruitsName.fName}
-    2. most color fun and little sweet fruit ${fruits.fruitsName.sName = 'pynapple'}
-    3. my most favourit fruit ${fruits.fruitsName.tName}
-`
-console.log(fruitsDetails);
+//     Which fruit i buy list:
+//     1. very sweet fruit ${fruits.fruitsName.fName}
+//     2. most color fun and little sweet fruit ${fruits.fruitsName.sName = 'pynapple'}
+//     3. my most favourit fruit ${fruits.fruitsName.tName}
+// `
+// console.log(fruitsDetails);
